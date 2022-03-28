@@ -1,0 +1,25 @@
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.posters{
+    padding-top: 10px;
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+}
+.poster{
+    max-height: 500px;
+    max-width: 300px;
+    padding-right: 10px;
+}
+.smallPoster{
+    max-height: 200px;
+    max-width: 250px;
+    padding-left: 10px;
+}
